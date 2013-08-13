@@ -1,0 +1,9 @@
+ server {
+         listen *:<%= @port %>;
+         root /data/<%= @doc_root %>;
+         server_name <%= @site_name %>;
+		
+		allow all;
+		
+		
+}

@@ -1,0 +1,15 @@
+#This sources.list file is managed by Puppet
+
+# deb cdrom:[Debian GNU/Linux 6.0.7 _Squeeze_ - Official amd64 DVD Binary-1 20130223-14:06]/ squeeze contrib main
+
+# deb cdrom:[Debian GNU/Linux 6.0.7 _Squeeze_ - Official amd64 DVD Binary-1 20130223-14:06]/ squeeze contrib main
+
+deb http://mirror.bytemark.co.uk/debian/ squeeze main
+deb-src http://mirror.bytemark.co.uk/debian/ squeeze main
+
+deb http://security.debian.org/ squeeze/updates main contrib
+deb-src http://security.debian.org/ squeeze/updates main contrib
+
+# squeeze-updates, previously known as 'volatile'
+deb http://mirror.bytemark.co.uk/debian/ squeeze-updates main contrib
+deb-src http://mirror.bytemark.co.uk/debian/ squeeze-updates main contrib
